@@ -1,7 +1,7 @@
-#Set the minimum required version of CMake to be 3.10
-cmake_minimum_required(VERSION 3.10)
+# Step 1: Set the minimum required version of CMake
+cmake_minimum_required(VERSION 3.14)
 
-#Create a project named Tutorial
+# Step 2: Create a project named Tutorial
 project(Trading_Strategies_Profit_Comparison
         VERSION 1.0
         LANGUAGES CXX)
@@ -14,9 +14,10 @@ project(Trading_Strategies_Profit_Comparison
 # TODO 8: Use configure_file to configure and copy TutorialConfig.h.in to
 #         TutorialConfig.h
 
-# Add an executable called Tutorial to the project
-# Hint: Be sure to specify the source file as tutorial.cxx
-#file(GLOB_RECURSE src CONFIGURE_DEPENDS ${src}/*.cpp)
-#add_executable()
+# Step 3: Add an executable
+# Hint: Be sure to specify the source file(s)
+set(src_dir ${CMAKE_SOURCE_DIR}/src)
+
+add_executable(main ${src_dir}/main.cpp)
 
 # TODO 9: Use target_include_directories to include ${PROJECT_BINARY_DIR}
