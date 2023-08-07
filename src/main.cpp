@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Test 1, 2, 3" << std::endl;
+    std::cout << "Trading Strategies Profit Comparison Project" << std::endl;
     return 1;
 }
