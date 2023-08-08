@@ -16,3 +16,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(src_dir ${CMAKE_SOURCE_DIR}/src)
 
 add_executable(main ${src_dir}/main.cpp)
+
+find_package(PythonLibs REQUIRED)
+include_directories(${PYTHON_INCLUDE_DIRS})
+#target_link_libraries(<your exe or lib> ${PYTHON_LIBRARIES})
