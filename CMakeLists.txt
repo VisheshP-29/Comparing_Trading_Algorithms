@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 # Step 2: Create a project named Tutorial
-project(Trading_Strategies_Profit_Comparison
+project(Trading_Strategies_Comparison
         VERSION 1.0
         LANGUAGES CXX)
 
@@ -11,12 +11,17 @@ project(Trading_Strategies_Profit_Comparison
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+#find_package(PythonLibs REQUIRED)
+#include_directories(${PYTHON_INCLUDE_DIRS})
+#add_library(test /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11)
+#target_include_directories(test PRIVATE /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11)
+# /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11
+
 # Step 3: Add an executable
 # Hint: Be sure to specify the source file(s)
 set(src_dir ${CMAKE_SOURCE_DIR}/src)
 
-add_executable(main ${src_dir}/main.cpp)
+#set(SOURCES)
 
-find_package(PythonLibs REQUIRED)
-include_directories(${PYTHON_INCLUDE_DIRS})
-#target_link_libraries(<your exe or lib> ${PYTHON_LIBRARIES})
+#add_executable(main ${src_dir}/main.cpp ${test})
+add_executable(main ${src_dir}/main.cpp)

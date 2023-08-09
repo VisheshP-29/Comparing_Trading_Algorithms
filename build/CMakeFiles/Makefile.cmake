@@ -7,12 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/visheshprasad/Desktop/Trading_Strategies_Profit_Comparison/CMakeLists.txt"
+  "/Users/visheshprasad/Desktop/Trading_Strategy_Comparisons/CMakeLists.txt"
   "CMakeFiles/3.27.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.1/CMakeSystem.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
-  "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeFindFrameworks.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeInitializeConfigs.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/CMakeLanguageInformation.cmake"
@@ -22,16 +21,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/Clang.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Compiler/GNU.cmake"
-  "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
-  "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/FindPackageMessage.cmake"
-  "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/FindPythonLibs.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Apple-Clang.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/Darwin.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/Platform/UnixPaths.cmake"
-  "/opt/homebrew/Cellar/cmake/3.27.1/share/cmake/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:
