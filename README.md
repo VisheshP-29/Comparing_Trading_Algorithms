@@ -1,4 +1,4 @@
-# Trading_Strategy_Comparisons
+# Comparing_Trading_Algorithms
 
 ** Note: Project is currently in progress and constantly gets updated as sections are completed **
 
