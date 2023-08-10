@@ -1,14 +1,17 @@
 # Trading_Strategy_Comparisons
 
+** Note: Project is currently in progress and constantly gets updated as sections are completed **
+
 # Overview
-Goal: Implement basic and machine-learning trading strategies and compare their performance with respect to profit, time, and other factors.
+Goal: Implement different machine-learning and basic trading algorithms to compare their performance with respect to profit, number of trades, time, and other factors.
 
 - - - -
 # Project Setup
 The project is controlled by C++ code and compiled using CMake.
-Step 1: Clean Code: 
-Step 2: 
-Step 3: Test the performance of different 
+1. Clean Data: ptyhon function called to read in .csv files. Python helper functions cleans all the data and places into a MySQL database.
+2. Manage Data: C++ code reads in cleaned data from the database and places data into a custom data structure for ETFs ans Stocks.
+3. Run Trading Algorithms: Run the C++ implementation of different trading algorithms on the ETFs and Stocks and measure the performance of each algorithm with respect to profit generated, number of trades, time, and other factors
+4. Output the previous results of each trading algorithm and compare them to better understand the performance of the different algorithms.
 - - - -
 # Instructions to Run Program
 In Progress ...
