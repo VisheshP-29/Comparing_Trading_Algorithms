@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 # Step 2: Create a project named Tutorial
-project(Trading_Strategies_Comparison
+project(Comparing_Trading_Algorithms
         VERSION 1.0
         LANGUAGES CXX)
 

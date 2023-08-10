@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/src/main.cpp.o: \
-  /Users/visheshprasad/Desktop/Trading_Strategy_Comparisons/src/main.cpp \
+  /Users/visheshprasad/Desktop/Comparing_Trading_Algorithms/src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
