@@ -2,6 +2,6 @@
 //#include <Python.h>
 
 int main() {
-    std::cout << "Trading Strategies Profit Comparison Project" << std::endl;
+    std::cout << "Comparing Trading Algorithms Personal Project" << std::endl;
     return 1;
 }
