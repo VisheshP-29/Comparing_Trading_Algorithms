@@ -25,3 +25,6 @@ set(src_dir ${CMAKE_SOURCE_DIR}/src)
 
 #add_executable(main ${src_dir}/main.cpp ${test})
 add_executable(main ${src_dir}/main.cpp)
+
+target_include_directories(main PRIVATE /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11)
+target_link_libraries(main /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/python3.11/config-3.11-darwin/libpython3.11.a)

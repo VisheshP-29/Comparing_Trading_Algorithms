@@ -256,6 +256,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
@@ -265,6 +266,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/new \
@@ -290,6 +292,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/gethostuuid.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/limits.h \
@@ -303,6 +307,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/malloc/_malloc.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/pthread_impl.h \
@@ -328,6 +333,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_symbol_aliasing.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_blkcnt_t.h \
@@ -344,6 +350,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_setsize.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_zero.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_filesec_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_gid_t.h \
@@ -365,8 +372,11 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_null.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_pid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_rune_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_sigaltstack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_sigset_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_size_t.h \
@@ -375,6 +385,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_time_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_timeval.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_timeval64.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_char.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int16_t.h \
@@ -386,6 +397,7 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_useconds_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_va_list.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_wchar_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_wint_t.h \
@@ -394,17 +406,23 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/resource.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/stat.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/syslimits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/wait.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_string.h \
@@ -412,11 +430,255 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_wctype.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/Python.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/abstract.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/bltinmodule.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/boolobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/bytearrayobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/bytesobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/ceval.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/codecs.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/compile.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/complexobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/abstract.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytearrayobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/cellobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/ceval.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/classobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/code.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/compile.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/complexobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/context.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/descrobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/dictobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/fileobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/fileutils.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/floatobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/funcobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/genobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/import.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/initconfig.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/listobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/longintrepr.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/longobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/methodobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/modsupport.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/object.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/objimpl.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/odictobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/picklebufobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyctype.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pydebug.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyerrors.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyfpe.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyframe.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pylifecycle.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pymem.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pystate.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pythonrun.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pythread.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pytime.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/setobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/sysmodule.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/traceback.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/tupleobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/unicodeobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/warnings.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/weakrefobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/descrobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/dictobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/enumobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/exports.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/fileobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/fileutils.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/floatobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/genericaliasobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/import.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/intrcheck.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/iterobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/listobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/longobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/memoryobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/methodobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/modsupport.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/moduleobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/object.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/objimpl.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/osmodule.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/patchlevel.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pybuffer.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pycapsule.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyconfig.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyerrors.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyframe.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyhash.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pylifecycle.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymacconfig.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymacro.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymath.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymem.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pystate.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pystrcmp.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pystrtod.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pythonrun.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pythread.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/rangeobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/setobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/sliceobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/structseq.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/sysmodule.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/traceback.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/tracemalloc.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/tupleobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/typeslots.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/unicodeobject.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/warnings.h \
+  /opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/weakrefobject.h
 
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/warnings.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/typeslots.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/tracemalloc.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/traceback.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/sysmodule.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/setobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/rangeobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pytypedefs.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pythread.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pythonrun.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pystrcmp.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyport.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymem.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymath.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymacro.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyerrors.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyconfig.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pybuffer.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/objimpl.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/object.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/modsupport.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/import.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/genericaliasobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/fileobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyframe.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/dictobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/descrobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/weakrefobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/exports.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/warnings.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/unicodeobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/tupleobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/traceback.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/sysmodule.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/setobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pylifecycle.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyframe.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyfpe.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyerrors.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pydebug.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pyctype.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/objimpl.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/methodobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/longobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/longintrepr.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/listobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/initconfig.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/genobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/floatobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/fileutils.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/fileobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/dictobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/unicodeobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/descrobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/picklebufobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/context.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pyhash.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/complexobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/code.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/classobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/cellobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytesobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/bytearrayobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/abstract.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/compile.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/intrcheck.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/ceval.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/bytesobject.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h:
 
@@ -432,27 +694,49 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdlib.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdio.h:
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/compile.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/time.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pystate.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/wait.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/syslimits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/stdio.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/select.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/resource.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/cdefs.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/appleapiopts.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/listobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_wint_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_wchar_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uuid_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/chrono:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uid_t.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pymem.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string.h:
 
@@ -461,6 +745,10 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_timespec.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pythread.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_seek_set.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/in_place.h:
 
@@ -478,9 +766,9 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mode_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/cdefs.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mbstate_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/unistd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_intptr_t.h:
 
@@ -502,6 +790,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mach_port_t.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/fileutils.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int64_t.h:
@@ -511,6 +801,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uintptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_copy.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/sliceobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_isset.h:
 
@@ -538,6 +830,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_select.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/move.h:
@@ -550,13 +844,13 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/atomic:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/abstract.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/max_element.h:
 
@@ -569,6 +863,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/stdint.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/floatobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/pthread/qos.h:
 
@@ -584,6 +880,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/nl_types.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/_types.h:
@@ -592,7 +890,13 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/_OSByteOrder.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pystrtod.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/ctype.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pymacconfig.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/bltinmodule.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/utility:
 
@@ -601,10 +905,6 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/compare:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/type_traits:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/generate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
@@ -646,6 +946,10 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/limits.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pylifecycle.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pystate.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
@@ -662,9 +966,11 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_xlocale.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/to_underlying.h:
 
@@ -678,11 +984,17 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/streambuf:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/pycapsule.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstring:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdlib:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstdio:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdio.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_posix_vdisable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_ino64_t.h:
 
@@ -752,6 +1064,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/gethostuuid.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
@@ -775,6 +1089,12 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/size.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/weakrefobject.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
@@ -803,6 +1123,12 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Users/visheshprasad/Desktop/Comparing_Trading_Algorithms/src/main.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_filesec_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/signal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/generate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unwrap_ref.h:
 
@@ -841,6 +1167,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_difference.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/funcobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
@@ -882,6 +1210,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binder1st.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_s_ifmt.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
@@ -890,9 +1220,13 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/import.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_null.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_union.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/unistd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_mcontext.h:
 
@@ -905,8 +1239,6 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/exchange.h:
 
@@ -928,13 +1260,17 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/data.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/inttypes.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/odictobject.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/enumobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/transform.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/resource.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
@@ -1018,6 +1354,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/object.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/bind_front.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_types.h:
@@ -1031,6 +1369,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/addressof.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/bytearrayobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
 
@@ -1049,6 +1389,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/for_each.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
 
@@ -1080,23 +1422,33 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_in_addr_t.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/longobject.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/boolobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__availability:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/iterobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_ssize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/arm/OSByteOrder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/moduleobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/version:
 
@@ -1108,9 +1460,13 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_timeval64.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional_base:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_uint64_t.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/codecs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
@@ -1130,7 +1486,15 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/modsupport.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/tupleobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pytime.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/stat.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__debug:
 
@@ -1139,6 +1503,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_time_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/memoryobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
@@ -1162,6 +1528,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/patchlevel.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/count.h:
@@ -1170,11 +1538,11 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_key_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_xlocale.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/pythonrun.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
@@ -1220,6 +1588,10 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/types.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/methodobject.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/complexobject.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/concepts:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/invoke.h:
@@ -1228,11 +1600,17 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/structseq.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/runetype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_locale.h:
 
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/osmodule.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/Availability.h:
+
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/cpython/ceval.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
 
@@ -1244,6 +1622,6 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/visheshprasad/Desktop/Comparing_Tradi
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/appleapiopts.h:
+/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11/Python.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityInternal.h:
