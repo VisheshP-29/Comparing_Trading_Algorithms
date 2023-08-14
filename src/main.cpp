@@ -1,18 +1,19 @@
 #include <iostream>
-#include <Python.h>
+//#include <Python.h>
 
 int main() {
+    
     std::cout << "Comparing Trading Algorithms Personal Project" << std::endl;
 
     /*
-     * Calling python code: Option 2
+     * Calling python code to get data: Option 1
      * Using system calls
      * Current Status: working as intedned with no errors
      */
-    system("python3 ../src/data_processing/DataProcessing.py");
+    system("python3 ../src/data_handling/DataProcessing.py");
 
     /*
-     * Calling python code: Option 2
+     * Calling python code to get data: Option 2
      * Using Python headers
      * Current Status: Got linker to link all necessary header files but getting segfault with PyModule_GetDict, currently debugging problem
      */
@@ -42,7 +43,24 @@ int main() {
     Py_DECREF(pModule);
     Py_DECREF(pName);
     Py_Finalize();
-    */
+     */
+
+
+    /*
+     * Calling python code to delete data: Option 1
+     * Using system calls
+     * Current Status: working as intedned with no errors
+     */
+    system("python3 ../src/data_handling/DataTrash.py");
+    
+    /*
+     * Calling python code to delete data: Option 2
+     * Using Python headers
+     * Current Status: Needs to be implemented
+     */
+    // ---
+
+    std::cout << "Project Complete" << std::endl;
 
     return 1;
 }
