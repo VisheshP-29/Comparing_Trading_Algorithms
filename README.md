@@ -24,8 +24,9 @@ In Progress ...
 Stores all code implementations.
 * main.cpp
     * The entry point into the program. Calls all necessary code and outputs the results of the tests and comparisons.
-* file: data_processing
-    * Contains the python code to read in the data from CSV files and store in a MySQL database.
+* file: data_handling
+    * DataProcessing.py: Contains python code to read in the data from CSV files and store in a MySQL database.
+    * DataTrash.py: Contains python code to delete the MySQL database at the completion of the project
 ## data
 Stores the dataset used in the project. Data is historical daily price and volume data for all US-based stocks and ETFs trading on the NYSE, NASDAQ, and NYSE MKT. The data (last updated 11/10/2017) is presented in CSV format as follows: Date, Open, High, Low, Close, Volume, OpenInt. Note that prices have been adjusted for dividends and splits.
 Data source: https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
