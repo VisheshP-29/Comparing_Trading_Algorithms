@@ -28,12 +28,15 @@ def trash():
         mycursor.execute("DROP DATABASE IF EXISTS comparing_trading_algorithms_db")
     except:
         print("Error deleting database")
-
-    # Display All Databases user has access to    
-    #mycursor.execute("SHOW DATABASES")
-    #for x in mycursor:
-    #    print(x)
     
+    print("Deleted")
+
+    # Display all databases the user has access to    
+    mycursor.execute("SHOW DATABASES")
+    for x in mycursor:
+        print(x)
+    
+    mydb.close()
     return
 
 

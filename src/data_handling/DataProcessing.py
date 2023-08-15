@@ -29,14 +29,27 @@ def clean():
         mycursor.execute("CREATE DATABASE IF NOT EXISTS comparing_trading_algorithms_db")
     except:
         print("Error creating database")
+        return
 
+    # Select database to connect to
+    try:
+        mycursor.execute("USE comparing_trading_algorithms_db")
+    except:
+        print("Error selecting database")
     
+    print("Current:")
+    # Display current 
+    mycursor.execute("SELECT DATABASE()")
+    for x in mycursor:
+        print(x)
 
-    # Display All Databases user has access to
-    #mycursor.execute("SHOW DATABASES")
-    #for x in mycursor:
-    #    print(x)
+    print("All:")
+    # Display all databases the user has access to
+    mycursor.execute("SHOW DATABASES")
+    for x in mycursor:
+        print(x)
 
+    mydb.close()
     return
 
 
