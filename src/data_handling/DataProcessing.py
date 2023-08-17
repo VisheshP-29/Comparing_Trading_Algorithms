@@ -6,8 +6,10 @@ def clean():
     # Import mysql.connector
     try:
         import mysql.connector
+        import csv
+        import os
     except:
-        print("Error with importing mysql.connector")
+        print("Error with imports")
         return
 
     # Connecting to mysql server
@@ -29,6 +31,7 @@ def clean():
         mycursor.execute("CREATE DATABASE IF NOT EXISTS comparing_trading_algorithms_db")
     except:
         print("Error creating database")
+        mydb.close()
         return
 
     # Select database to connect to
@@ -49,6 +52,18 @@ def clean():
     for x in mycursor:
         print(x)
 
+    # Add table scheme to database
+
+    # Iterate through all Stocks and ETFs CSV files and place into table
+    try:
+        cnt = 0
+        for dirname, _, filenames in os.walk('../data/Data'):
+            for filename in filenames:
+                if dirname == '../data/Data/Stocks' or dirname == '../data/Data/ETFs':
+                    cnt += 1
+        print(f"Total number of files: {cnt}")
+    except:
+        print("Error opening data files")
     mydb.close()
     return
 
