@@ -1,6 +1,8 @@
 # DataTrash.py
 # File used to delete the database used by the project after all algorithms have been run
 
+# Trash function
+# Deletes the database
 def trash():
     # Import mysql.connector
     try:

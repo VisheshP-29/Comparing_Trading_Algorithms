@@ -1,7 +1,8 @@
 # DataProcessing.py
 # File used to read in CSV files of all stock and etf data and place into a MySQL database
 
-
+# Clean function
+# Reads in CSV files from the data folder. Cleans data and stores in a database
 def clean():
     # Import mysql.connector
     try:
