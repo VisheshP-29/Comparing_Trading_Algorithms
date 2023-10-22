@@ -1,8 +1,13 @@
-# DataProcessing.py
-# File used to read in CSV files of all stock and etf data and place into a MySQL database
+"""
+DataProcessing.py
+File used to read in CSV files of all stock and etf data and place into a MySQL database
+"""
 
-# Clean function
-# Reads in CSV files from the data folder. Cleans data and stores in a database
+
+"""
+Clean function
+Reads in CSV files from the data folder. Cleans data and stores in a database
+"""
 def clean():
     # Import mysql.connector
     try:
@@ -68,8 +73,9 @@ def clean():
     mydb.close()
     return
 
-
-# Entry point for DataProcesssing.py
-# Calls helper function clean() to clean data and place in database
+"""
+Entry point for DataProcesssing.py
+Calls helper function clean() to clean data and place in database
+"""
 if __name__ == '__main__':
     clean()
